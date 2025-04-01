@@ -6,7 +6,7 @@ int main() {
     int n, m;
     scanf("%d%d", &n, &m);
     std::vector<WeaponSlot> slots(n);
-
+//I add a line
     while (m--) {
         int op, i, j, a, d, p;
         scanf("%d", &op);
